@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media(max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media(max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+
+.main_heading {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  background-color: #cd3c3c;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #9a0000;
+  height: 8rem;
+  border-radius: 1rem;
+  justify-content: center;
+  box-shadow: .3rem .3rem .5rem #c33939;
+
+}
+
+.heading {
+  text-decoration: underline;
+  text-shadow: .1rem .5rem 1.9rem rgb(144, 3, 3);
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.input_search {
+  height: 4rem;
+  width: 20rem;
+  text-align: center;
+  border: solid .3rem #990000;
+  border-radius: 1.5rem;
+  margin-left: 1rem;
+  background-color: rgba(255, 255, 255, 0.792);
+}
+
+.search {
+  height: 4rem;
+  width: 9rem;
+  text-align: center;
+  border: solid .3rem #990000;
+  border-radius: 1.5rem;
+  margin-left: 1rem;
+  background-color: rgba(255, 255, 255, 0.792);
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+
+.all_cards {
+  margin: .5rem;
+  border: solid .4rem #990000;
+  border-radius: 1rem;
+  width: fit-content;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: .1rem .1rem .7rem #c33939;
+}
+
+.all_cards:hover {
+  box-shadow: .5rem 1rem 1rem #c33939;
+
+}
+
+.a_images {
+  width: 35rem;
+  border-radius: .5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards_play {
+  width: 100%;
+  background-color: #c80f0f;
+  height: 2.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  color: beige;
+}
+
+.cards_play:hover {
+  background-color: #cd3c3c
+}
+
+.cards_name {
+  text-align: center;
+  margin-bottom: 1rem;
+  height: 2rem;
+  margin-top: .5rem;
+  color: #b92323;
+}
+
+.main_footer {
+  background-color: #cd3c3c;
+  color: rgb(228, 220, 204);
+  margin-top: 1.5rem;
+  height: 8rem;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: .6rem;
+  margin: 1rem;
+}
+
+.facebook,
+.insta {
+  cursor: pointer;
+  /* height: ; */
+}
+
+/* 
+.search_container {
+  display: flex;
+
+  /* Apply styles for small screens */
+/* @media (max-width: 200r) {
+    flex-direction: row;
+    align-items: center;
+  } */
+/* } */
